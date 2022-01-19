@@ -1,0 +1,1 @@
+To run the Main.m script you need to download VBA_toolbox. Then the script automatically call the two other functions.You need to change the path in the begining of the Main.m script to load the shared data.

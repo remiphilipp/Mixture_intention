@@ -19,7 +19,7 @@ for num_sub=Subj_list %num_sub = 1:size(datastruct,2)
     
     options.verbose = 1;
     options.isYout = isYout;
-    f_fname = @f_influence_2games; % @f_Hampton_2games_fixedArbitrator;
+    f_fname = @f_influence_2games; 
     g_fname = @g_influence_2games;
     u =[NaN,z(1:end-1)' ;   % previous response
         NaN,y(1:end-1)' ;];  % previous choice

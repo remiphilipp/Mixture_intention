@@ -1,1 +1,10 @@
-To run the Main.m script you need to download VBA_toolbox. Then the script automatically call the two other functions.You need to change the path in the begining of the Main.m script to load the shared data.
+Main.m is the script to run the model analyses:
+    - you need to download VBA_toolbox. 
+    - You need to change the path in the begining of the Main.m script to load the shared data.
+    - You need to choose the evolution and observation function (f_**** and g_*** respectively).
+
+Behavioral.do is the script to redo the behavioral analyses of the paper. It is to use with the data in the .dta file with the same name in the public data folder.
+
+Analysis of mixed intention model.do is the script to make the post hoc tests on the mixed intention model. It is to use with the data in the .dta file with the same name in the public data folder.
+
+Generative.do is the script to redo the generative analyses of the 3 influence models. It is to use with the data in the .dta file with the same name in the public data folder.

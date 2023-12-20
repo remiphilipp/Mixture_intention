@@ -1,6 +1,9 @@
 xtset Subject Trial
 
 **Behavioral logistic reg
+ttest Victoiret , by (cooperation)
+
+**Behavioral logistic reg
 xtlogit  Switch  Victoiret1 Victoiret2 Victoiret3  Switcht1 Switcht2 Switcht3   WsLsaa WsLsaat2 WsLsaat3, vce(cluster Subject)
 margins, dydx(*)
 marginsplot

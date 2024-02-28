@@ -16,3 +16,8 @@ Generative.dta contains data that the models generateded. The mode as 3 values :
 parameter_recovery_data is a matlab file containing the matrix of the parameter recovery with parameters in the same order than the original paper
 
 confusion_matrix_data is a matlab file containing the matrix of the confusion analysis with model in the same order than the original paper
+
+
+All aviable script and data can be download here : https://zenodo.org/records/10299140. 
+
+If you use the data, please cite the DOI: 10.5281/zenodo.10299140
